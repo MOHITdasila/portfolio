@@ -1,0 +1,39 @@
+.header{
+    background-color: #4E6E81;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-name {
+    margin-left: 10vw;
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 22px;
+}
+.header-name-container {
+   width: 140px;
+    margin: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-navigation {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+}
+.header-title:hover {
+    color:black;
+    font-weight: 600;
+}
+.contact {
+     color: white;
+    cursor: pointer;
+    padding: 20px;
+    margin-right: 10vw;
+}
